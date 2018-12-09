@@ -25,7 +25,8 @@ BuildRequires:	pkgconfig(Qt5Xml)
 BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	python-numpy-devel
 BuildRequires:	python2-numpy-devel
-
+BuildRequires:	clang-devel
+BuildRequires:	llvm-devel
 %description
 The PySide project provides LGPL-licensed Python bindings for the Qt
 cross-platform application and UI framework. PySide Qt bindings allow both free
