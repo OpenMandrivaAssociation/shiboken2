@@ -19,6 +19,7 @@ BuildRequires:	python2-setuptools
 BuildRequires:	pkgconfig(python3)
 BuildRequires:  python-setuptools 
 BuildRequires:	python-sphinx
+BuildRequires:	cmake(ECM)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Xml)
 BuildRequires:	pkgconfig(Qt5XmlPatterns)
