@@ -19,7 +19,9 @@ BuildRequires:	python2-setuptools
 BuildRequires:	pkgconfig(python3)
 BuildRequires:  python-setuptools 
 BuildRequires:	python-sphinx
-BuildRequires:	qt5-devel
+BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5Xml)
+BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	python-numpy-devel
 BuildRequires:	python2-numpy-devel
 
