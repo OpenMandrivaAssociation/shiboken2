@@ -38,7 +38,7 @@ all of the platforms as Qt itself.
 %{py_platsitedir}/%{name}*.so
 %{_mandir}/man1/*
 
-%define libmajor 5.11
+%define libmajor %api
 %define libname %mklibname %{name} %{libmajor}
 
 %package -n %{libname}
@@ -53,7 +53,7 @@ Shiboken Generator core lib.
 
 #------------------------------------------------------------------------------
 
-%define libmajor 5.9
+%define libmajor %api
 %define libname_py2 %mklibname %{name}_python2.7 %{libmajor}
 
 %package -n %{libname_py2}
