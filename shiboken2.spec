@@ -19,6 +19,7 @@ BuildRequires:	python2-setuptools
 BuildRequires:	pkgconfig(python3)
 BuildRequires:  python-setuptools 
 BuildRequires:	python-sphinx
+BuildRequires:	qt5-devel
 
 %description
 The PySide project provides LGPL-licensed Python bindings for the Qt
