@@ -35,7 +35,9 @@ all of the platforms as Qt itself.
 
 %files
 %{_bindir}/%{name}
-%{py_platsitedir}/%{name}*.so
+%{_bindir}/shiboken_tool.py
+%{py_platsitedir}/%{name}
+%{py_platsitedir}/%{name}_generator
 %{_mandir}/man1/*
 
 %define libmajor %api
@@ -76,7 +78,8 @@ PySide shiboken2 module.
 
 %files -n python2-shiboken2
 %{_bindir}/%{name}-%py2ver
-%py2_platsitedir/%{name}.so
+%py2_platsitedir/%{name}
+%py2_platsitedir/%{name}_generator
 
 #------------------------------------------------------------------------------
 
