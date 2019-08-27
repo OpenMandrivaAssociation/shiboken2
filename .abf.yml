@@ -1,4 +1,2 @@
-removed_sources:
-  pyside-setup-everywhere-src-5.11.2.tar.xz: df9bcabf263d0f334349a5e46927549b232cbafb
 sources:
-  pyside-setup-everywhere-src-5.12.0.tar.xz: d3ca02a28dd8107f5d3a9b40426ae4131195b07d
+  pyside-setup-everywhere-src-5.13.0.tar.xz: 6ca848c335e4cf53f34101471ba6208949110404
